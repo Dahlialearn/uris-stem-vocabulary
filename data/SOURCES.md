@@ -1,7 +1,7 @@
 # Website data provenance
 
-Version: 0.3  
-Prepared: 2026-09-22
+Version: 0.5
+Updated: 2026-09-23
 
 ## Canonical website dataset
 
@@ -20,9 +20,15 @@ Prepared: 2026-09-22
 5. `Methods/background Info/URIS_3_9 /Second Pilot/Gorilla Spreadsheet/22-4/Learn_Short_Morph_schedule.xlsx`
    - Implemented Chinese meanings for the 34 current study words. Simplified characters were converted to standard Traditional Chinese without changing meaning.
 6. `Mixed Effects Model/19_9/Word_Level_Variable.xlsx`
-   - Current-study item ID, POS, iWeb frequency, and lexical analysis.
+   - Current-study item ID, POS, iWeb frequency, morphological category, and lexical analysis.
 7. `analysis_pipeline/correlation_preliminary_2026_09_16/outputs/word_level_inputs.csv`
    - Verified mean usefulness and difficulty ratings for the 34 current study words.
+8. `Methods/background Info/URIS_3_9 /Second Pilot/Gorilla Spreadsheet/22-4/Learn_Short_Morph_schedule.xlsx`
+   - Implemented morphology breakdowns used to distinguish recorded prefixes and suffixes in the 34-word study set.
+9. `PolyU-CALLS 2025 .pdf`
+   - Approved conference presentation. The unchanged PDF is displayed through the browser's built-in viewer from `assets/outputs/polyu-calls-2025.pdf`; SHA-256: `1b0ffd8ff5317a9d39b462c576233178d641ef236af258519aa746667177d5d6`.
+10. `Photo/IMG_0199.JPG`
+   - Researcher-supplied project event photograph. A resized website derivative is stored at `assets/news/november-2025-curi-visit.jpg`; the original photograph is unchanged.
 
 ## Official public terminology sources
 
@@ -33,9 +39,10 @@ Exact English headwords were matched against four Hong Kong Education Bureau glo
 - COCA POS codes were expanded into readable labels. Multiple recorded values are retained.
 - The 433- and 468-word lists contain 86 shared words; neither was treated as a subset of the other.
 - Only complete English-headword matches from the official glossaries were accepted. Biology was prioritized, followed by general Science, Chemistry, and Physics.
-- Missing POS is shown as `Pending verification`; missing Chinese terminology is shown as `待核實`. Neither is inferred from spelling or machine translation.
+- Traditional Chinese terminology was reviewed and synchronised across the four vocabulary sets. POS values were added for 133 high-confidence entries; 28 context-sensitive entries remain explicitly marked `Pending verification` pending specialist confirmation.
 - Candidate-pool affixes reproduce the source workbook without silent normalization.
-- The Affix Explorer uses the 34-word set as its core and shows no more than four separately labelled 138-pool examples for a matching recorded affix.
+- For the 34-word study set, morphological category is drawn from the current word-level workbook. Simple words display `NA` for prefix and suffix. Derived and compound words display a prefix or suffix only where the project materials support that label.
+- The Affix Explorer uses this 34-word coding as its core and shows no more than four separately labelled 138-pool examples for a matching recorded affix.
 - No participant data, responses, identifiers, outcomes, or preliminary inferential findings are included.
 
 ## Current coverage and limitations
@@ -45,3 +52,5 @@ Exact English headwords were matched against four Hong Kong Education Bureau glo
 - Candidate pool: POS verified for 138/138; Chinese coverage follows the same official/project terminology rules.
 - POS describes the source lexical entry, not a new researcher-coded STEM-sense annotation.
 - `待核實` is a status marker, not a translation.
+- Morphological categories and split prefix/suffix fields for the broader 138-word pool are deferred until a researcher-reviewed classification workbook is supplied.
+- Remaining Traditional Chinese verification is deferred until the researcher supplies the completed terminology list.

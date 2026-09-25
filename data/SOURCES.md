@@ -29,6 +29,8 @@ Updated: 2026-09-23
    - Approved conference presentation. The unchanged PDF is displayed through the browser's built-in viewer from `assets/outputs/polyu-calls-2025.pdf`; SHA-256: `1b0ffd8ff5317a9d39b462c576233178d641ef236af258519aa746667177d5d6`.
 10. `Photo/IMG_0199.JPG`
    - Researcher-supplied project event photograph. A resized website derivative is stored at `assets/news/november-2025-curi-visit.jpg`; the original photograph is unchanged.
+11. `Methods/background Info/URIS_3_9 /_Pilot_Data Analysis/Pilot - Second Round Analysis /Descriptive_Table.xlsx`
+   - Word-level expert-rating coverage for the candidate pool. Ratings are available for 137 of the 138 candidate words.
 
 ## Official public terminology sources
 

@@ -78,6 +78,35 @@ h3{font-size:1.12rem}
 .focus-list article{position:relative;padding-left:1.25rem}
 .focus-list article:before{content:"";position:absolute;left:0;top:.46rem;width:.42rem;height:.42rem;border-radius:50%;background:var(--blue-700)}
 .focus-list p{color:var(--muted);margin-bottom:0}
+.experiment-section{background:#fff}
+.experiment-heading{max-width:none;margin-bottom:2.8rem}
+.experiment-heading p{max-width:none}
+.experiment-block{display:grid;grid-template-columns:minmax(175px,.28fr) minmax(0,1fr);gap:3.5rem;padding:2.6rem 0;border-top:1px solid var(--line)}
+.experiment-label h3{font-size:1.3rem;margin-bottom:0}
+.spacing-comparison{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
+.spacing-comparison article{min-width:0}
+.spacing-comparison h3{margin-bottom:.85rem}
+.spacing-comparison p{color:var(--muted);margin:.85rem 0 0}
+.sequence-line{display:flex;align-items:center;gap:.38rem;min-height:2.35rem;flex-wrap:wrap}
+.sequence-token{display:inline-grid;place-items:center;width:2rem;height:2rem;border-radius:50%;border:1px solid #9fb0c9;background:#fff;color:var(--blue-900);font-size:.8rem;font-weight:700;line-height:1}
+.token-a{border-color:var(--blue-700);background:var(--blue-100)}
+.token-b{border-color:#8793a2}
+.token-c{border-color:#4e5968;background:#f2f4f7}
+.token-n{width:2.2rem;color:var(--muted)}
+.sequence-line i{display:block;width:1px;height:1.7rem;background:var(--line);margin:0 .25rem}
+.sequence-ellipsis{color:var(--muted);letter-spacing:.08em}
+.distributed-sequence{gap:.3rem}
+.morphology-block{padding-bottom:2.8rem}
+.flashcard-intro{margin:0 0 1.8rem;color:#405367}
+.flashcard-comparison{display:grid;grid-template-columns:repeat(2,minmax(0,190px));gap:2.5rem;align-items:start;max-width:500px}
+.flashcard-figure{margin:0}
+.flashcard-shot{position:relative;overflow:hidden;width:190px;max-width:100%;aspect-ratio:520/868;margin:0 auto;background:#ffe8a9}
+.flashcard-shot img{position:absolute;display:block;max-width:none;height:auto}
+.flashcard-shot-without img{width:137.31%;left:-20%;top:-10.37%}
+.flashcard-shot-with img{width:132.7%;left:-15.77%;top:-8.3%}
+.flashcard-figure figcaption{width:190px;max-width:100%;margin:0 auto 1rem;line-height:1.35}
+.flashcard-figure figcaption strong{display:block;color:var(--blue-900);font-size:.95rem}
+.flashcard-figure figcaption span{display:block;color:var(--muted);font-size:.86rem;margin-top:.25rem}
 .page-intro{padding:3.6rem 0 3.25rem;background:var(--blue-900);text-align:center}
 .page-intro h1{font-size:clamp(2.05rem,4vw,3.1rem);max-width:none;margin:0 auto .55rem}
 .page-intro h1,.page-intro .eyebrow{color:#fff}
@@ -178,6 +207,7 @@ tbody tr:hover{background:var(--blue-050)}
 @media (min-width:1200px){
   .set-description{white-space:nowrap;font-size:.94rem}
   .method-note{white-space:nowrap;font-size:.94rem}
+  .experiment-heading p{white-space:nowrap}
 }
 @media (max-width:900px){
   .hero-grid{min-height:auto}
@@ -185,7 +215,7 @@ tbody tr:hover{background:var(--blue-050)}
   .focus-list,.team-grid{grid-template-columns:1fr 1fr}
   .controls{grid-template-columns:1fr 1fr}
   .control.search-control{grid-column:1/-1}
-  .affix-layout,.research-grid,.editorial-grid,.citation-block{grid-template-columns:1fr;gap:2rem}
+  .affix-layout,.research-grid,.editorial-grid,.citation-block,.experiment-block{grid-template-columns:1fr;gap:2rem}
   .affix-details{position:static}
   .site-nav{gap:1.5rem}
 }
@@ -202,7 +232,11 @@ tbody tr:hover{background:var(--blue-050)}
   .research-output>h2{font-size:1.4rem}
   .pdf-viewer{height:480px}
   .section{padding:3.2rem 0}
-  .focus-list,.team-grid,.controls,.affix-controls{grid-template-columns:1fr}
+  .focus-list,.team-grid,.controls,.affix-controls,.spacing-comparison{grid-template-columns:1fr}
+  .spacing-comparison{gap:2.2rem}
+  .flashcard-comparison{grid-template-columns:repeat(2,minmax(0,150px));gap:1rem;justify-content:center}
+  .experiment-block{padding:2.2rem 0}
+  .flashcard-shot{max-width:150px}
   .control.search-control{grid-column:auto}
   .footer-inner{flex-direction:column}
   .brand-lockup{gap:.8rem}

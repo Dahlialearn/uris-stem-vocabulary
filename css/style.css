@@ -36,7 +36,7 @@ button{cursor:pointer}
 .page-shell{max-width:var(--max);margin:auto;padding:0 1.25rem}
 .hero{background:var(--blue-900)}
 .hero-grid{min-height:410px;display:flex;align-items:center;justify-content:center;text-align:center;padding-top:4.8rem;padding-bottom:4.8rem}
-.hero-grid>div{max-width:850px}
+.hero-grid>div{max-width:980px}
 .eyebrow{margin:0 0 .7rem;color:var(--blue-700);font-size:.78rem;font-weight:bold;text-transform:uppercase;letter-spacing:.13em}
 h1,h2,h3{color:var(--blue-900);line-height:1.2;margin-top:0}
 h1{font-size:clamp(2.2rem,4vw,3.65rem);letter-spacing:-.035em;margin-bottom:1rem;max-width:850px}
@@ -44,7 +44,7 @@ h2{font-size:clamp(1.5rem,2.5vw,2.05rem);letter-spacing:-.02em}
 h3{font-size:1.12rem}
 .lede{font-size:1.05rem;max-width:700px;color:#31465a;margin-bottom:1.5rem}
 .hero h1,.hero .eyebrow{color:#fff}
-.hero h1{font-size:clamp(2rem,3.7vw,3.35rem);max-width:980px;margin-left:auto;margin-right:auto}
+.hero h1{font-size:clamp(1.9rem,3.2vw,3rem);max-width:980px;margin-left:auto;margin-right:auto}
 .hero .lede{color:#e8edf8;max-width:720px;margin-left:auto;margin-right:auto}
 .scheme-line{margin:0 0 .8rem;font-size:.78rem;font-weight:400;letter-spacing:.1em;text-transform:uppercase}
 .scheme-line a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.45);padding-bottom:.12rem}

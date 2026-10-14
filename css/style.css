@@ -234,7 +234,10 @@ tbody tr:hover{background:var(--blue-050)}
   .section{padding:3.2rem 0}
   .focus-list,.team-grid,.controls,.affix-controls,.spacing-comparison{grid-template-columns:1fr}
   .spacing-comparison{gap:2.2rem}
-  .flashcard-comparison{grid-template-columns:repeat(2,minmax(0,150px));gap:1rem;justify-content:center}
+  .flashcard-comparison{grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;width:100%;max-width:316px;margin:0 auto}
+  .flashcard-figure{min-width:0}
+  .flashcard-figure figcaption{display:flex;align-items:flex-start;min-height:4.15rem;width:100%;margin-bottom:.75rem}
+  .flashcard-shot{width:100%;max-width:none}
   .experiment-block{padding:2.2rem 0}
   .flashcard-shot{max-width:150px}
   .control.search-control{grid-column:auto}

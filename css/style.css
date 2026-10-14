@@ -72,13 +72,13 @@ h3{font-size:1.12rem}
 .editorial-grid{display:grid;grid-template-columns:minmax(280px,.75fr) minmax(340px,1fr);gap:4rem;align-items:start}
 .editorial-grid p{margin:0;color:#405367;font-size:1.05rem}
 .editorial-grid .stem-context{margin-top:1rem}
-.focus-section{background:var(--blue-050)}
+.focus-section{background:var(--blue-050);padding-bottom:2.2rem}
 .focus-list{display:grid;grid-template-columns:repeat(3,1fr);gap:2.5rem;margin-top:1.5rem}
 .focus-list-four{grid-template-columns:repeat(4,1fr);gap:2rem}
 .focus-list article{position:relative;padding-left:1.25rem}
 .focus-list article:before{content:"";position:absolute;left:0;top:.46rem;width:.42rem;height:.42rem;border-radius:50%;background:var(--blue-700)}
 .focus-list p{color:var(--muted);margin-bottom:0}
-.experiment-section{background:#fff}
+.experiment-section{background:#fff;padding-top:2.2rem;padding-bottom:1.2rem}
 .experiment-heading{max-width:none;margin-bottom:2.8rem}
 .experiment-heading p{max-width:none}
 .experiment-block{display:grid;grid-template-columns:minmax(175px,.28fr) minmax(0,1fr);gap:3.5rem;padding:2.6rem 0;border-top:1px solid var(--line)}
@@ -96,7 +96,7 @@ h3{font-size:1.12rem}
 .sequence-line i{display:block;width:1px;height:1.7rem;background:var(--line);margin:0 .25rem}
 .sequence-ellipsis{color:var(--muted);letter-spacing:.08em}
 .distributed-sequence{gap:.3rem}
-.morphology-block{padding-bottom:2.8rem}
+.morphology-block{padding-bottom:0}
 .flashcard-intro{margin:0 0 1.8rem;color:#405367}
 .flashcard-comparison{display:grid;grid-template-columns:repeat(2,minmax(0,190px));gap:2.5rem;align-items:start;max-width:500px}
 .flashcard-figure{margin:0}
@@ -180,7 +180,7 @@ tbody tr:hover{background:var(--blue-050)}
 .fact-panel dd{margin:0}
 .references{padding-left:0;list-style:none}
 .references li{margin-bottom:.75rem;padding-left:2rem;text-indent:-2rem}
-.citation-section{background:#fff}
+.citation-section{background:#fff;padding-top:1.8rem}
 .citation-block{display:grid;grid-template-columns:minmax(230px,.45fr) minmax(0,1fr);gap:4rem;align-items:start}
 .citation-block p{margin-top:0;max-width:820px}
 .citation-note{color:var(--muted);font-size:.9rem}
